@@ -29,15 +29,31 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
-
+.forEach loops through each element in the array but does not return anything. When you use .map
+it loops through each element in the array and pushes each value produced into a new array.
 
 2. Explain the difference between a callback and a higher order function.
 
+A higher order function takes another function as an argument and returns a function to whatever calls it while a callback function is a function
+that is passed into another function that is avaliable to be called by other functions.
+
 3. Can you explain what a closure is and how you used it in the counter function? 
+
+While I didn't use a closure in the counter function. The way I would have used a closure is by looping for the number given 
+and looping a nested function which adds onto a variable and returns it.
 
 4. Describe the four principles of the 'this' keyword.
 
+The following four are my explanations for the principles of the 'this' keyword
+    1. Window binding is the default rule of 'this' 
+    2. Implicit binding refers to a object and allows for methods to be made for it
+    3. Explicit binding applies to invoking a function with .call and .apply and .bind allows for the function to be called later
+    4. New binding is when a new object is made and 'this' referes to the new object made
+
+
 5. Why do we need super() in an extended class?
+
+super() is used when you want to inherit the properties of the parent class.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
